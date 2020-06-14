@@ -28,6 +28,9 @@ export const Container = styled.div<ContainerProps>`
     props.isErrored &&
     css`
       border-color: #c53030;
+      /* & > div > svg {
+        visibility: visible;
+      } */
     `}
 
   ${props =>
@@ -42,9 +45,9 @@ export const Container = styled.div<ContainerProps>`
     css`
       color: #ff9000;
       border-color: #232129;
-      & > div > svg {
+      /* & > div > svg {
         visibility: hidden;
-      }
+      } */
     `}
 
 
