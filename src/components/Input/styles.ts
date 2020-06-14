@@ -41,6 +41,10 @@ export const Container = styled.div<ContainerProps>`
     props.isFilled &&
     css`
       color: #ff9000;
+      border-color: #232129;
+      & > div > svg {
+        visibility: hidden;
+      }
     `}
 
 
